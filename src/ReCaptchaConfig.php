@@ -45,4 +45,7 @@ class ReCaptchaConfig
 
     /** @var \yii\httpclient\Request */
     public $httpClientRequest;
+
+    /** @var string Name of the component. Default is 'reCaptcha'. */
+    public $name;
 }
